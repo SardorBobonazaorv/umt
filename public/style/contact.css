@@ -1,0 +1,125 @@
+.box .img{
+    height: calc(50vw - 5px);
+    width: calc(50vw - 2px);
+    margin: 0;
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+#form{
+    background-color: #115AA7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+#form input{
+    outline: none;
+    background: transparent;
+    padding-bottom: 1rem;
+    border: none;
+    display: block;
+    border-bottom: 1px solid #fff;
+    margin: 3rem 0;
+    width: 30vw;
+}
+#form input::placeholder{
+    color: rgba(255, 255, 255, 0.253);
+}
+#form input:focus{
+    color: #fff;
+}
+#form .send{
+    background-color: #C22B38;
+    color: #fff;
+    margin-top: 8rem;
+    padding: 1.5rem 5rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+#form .send:hover{
+    color: #C22B38;
+    background-color: #fff;
+}
+.lbox{
+    margin-bottom: 3rem;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img .contact_visit .lbox p,
+.img .contact_contact .lbox p
+{
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+.img .contact_visit .lbox p{
+    font-size: 5.2rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.img:first-child{
+    align-items: baseline;
+}
+
+.p1{
+    color: #115AA7;
+}
+#visit p:first-child{
+    color: #115AA7;
+}
+.six .img{
+    align-items: baseline;
+    padding: 0 10%;
+}
+.six .img p:first-child{
+    color: #115AA7;
+    margin-bottom: 2.2rem;
+}
+.six .msg{
+    min-height: 100%;
+}
+iframe{
+    max-height: calc(50vw - 5px);
+}
+.img p:last-child{
+    font-size: 5.2rem;
+    font-weight: 400;
+}
+.img p:first-child, .lbox p:last-child{
+    font-size: 2.2rem;
+}
+.top{
+    font-size: 2.2rem;
+    color: #115AA7;
+    margin-bottom: 1rem;
+}
+.top:last-child{
+    margin-bottom: 2.2rem;
+}
+.img p.bottom{
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
+form h3{
+    font-weight: 400;
+}
+@media all and (max-width: 1280px){
+    .box .msg, .box .img{
+        height: 50vh;
+    }
+    .box{
+        margin: 0;
+        height: 100%;
+    }
+}

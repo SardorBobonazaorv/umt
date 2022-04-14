@@ -1,0 +1,430 @@
+@media all and (max-width: 1540px){
+    html{
+        font-size: 8px;
+    }
+}
+
+
+@media all and (max-width: 1280px) {
+    body{
+        width: 100vw;
+        font-size: 2rem;
+    }
+    html{
+        font-size: 6px;
+    }
+    #form{
+        max-width: 800px;
+    }
+    .slider .mySlides{
+        width: 700vw;
+    }
+    .slider .mySlides img{
+        width: 100vw;
+    }
+    .slider .mySlides img{
+        height: 60vh;
+    }
+    a.next{
+        right: 10px;
+    }
+    form.form-container{
+        width: 100%;
+    }
+    #form form.form-container input{
+        width: calc(100% - 40px);
+        margin: 3rem 20px;
+    }
+    form.form-container h3{
+        text-align: center;
+    }
+    #form form.form-container input.send{
+        margin: 0 auto;
+        width: 160px;
+    }
+    .box.six.contact{
+        min-height: 100%;
+    }
+    .contact .mapouter, .contact .gmap_canvas, .contact .gmap_canvas iframe{
+        min-height: 50vh !important;
+    }
+    .container .six .img#join_box{
+        height: 80%;
+        margin-bottom: 10rem;
+    }
+    .box .img#top{
+        height: 100%;
+    }
+    .slider .mySlides .slide{
+        width: 100vw;
+        height: 60vh;
+    }
+    /* .seven.box{
+        min-height: 60vh;
+        height: 60vh;
+    } */
+    .slider .mySlides .slide:first-child{
+        margin-left: 0;
+    }
+    .more a{
+        width: 15rem;
+    }
+    .toTop{
+        width: 8rem;
+        height: 8rem;
+    }
+    .container .slider_container h4{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .slider_container .slider0 a{
+        font-size: 4rem;
+        padding: 1.7rem 2.4rem;
+    }
+    .slider_container .slider0{
+        width: 300vw;
+    }
+    .slider0 .slide{
+        width: 100vw;
+    }
+    .slider0 #first hr{
+        right: -28px;
+    }
+    .slider0 #second hr{
+        right: -28px;
+    }
+    #join_box #join_form input{
+        width: 4rem;
+        height: 4rem;
+    }
+    .slider0 .slide p{
+        font-size: 4rem;
+    }
+    .box .img#join_box{
+        min-height: 60vh;
+        height: 60vh;
+        padding: 3rem 0;
+    }
+    .container .six .img#join_box{
+        margin-top: -24rem;
+    }
+    .slider0 .slide p:last-child{
+        font-size: 4rem;
+    }
+    .six.box > .img1{
+        width: 100vw;
+    }
+    .brands .brand, .brand .fade, .brand .appear{
+        width: calc((100vw - 10px) / 3);
+    }
+    .img-one{
+        display: none;
+    }
+    .res-menu{
+        padding: 2rem 0 0 0;
+        width: 100vw;
+    }
+    .res-links{
+        width: 100vw;
+        right: -100vw;
+    }
+    .box>.img1{
+        height: 80vh;
+        width: 100vw;
+    }
+    .brand{
+        width: calc((100vw - 10px) / 3);
+        height: 150px;
+    }
+    .menu_box{
+        display: block;
+    }
+    .box .msg, .box .img{
+        min-height: 80vh;
+    }
+    .footer_icon{
+        margin-bottom: 7rem;
+    }
+    .box .img img{
+        height: 100%;
+    }
+    .img{
+        min-width: calc(100vw);
+    }
+    /* .welcome{
+        min-height: 140vh;
+    } */
+    .welcome_text{
+        top: 50%;
+        width: 100%;
+    }
+    .sliderhome{
+        left: calc(330px);
+    }
+    .welcome::before{
+        display: block;
+    }
+    .img_part{
+        flex-direction: column;
+    }
+    .img0{
+        width: calc(100vw - 10px);
+    }
+    .box{
+        margin: 3rem 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box:nth-child(2n+1){
+        flex-direction: column;
+    }
+    .box:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+    .box .msg, .box .img{
+        width: 100vw;
+    }
+    .box .img img{
+        min-width: 100%;
+    }
+    .five.box .img{
+        width: 100vw;
+    }
+    .slide{
+        width: calc(100vw);
+    }
+    .seven{
+        height: 80vh;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer img{
+        width: 100px;
+    }
+    .footer_logo{
+        flex-direction: row;
+    }
+    .footer_contact{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        padding: 0 8rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .visit{
+        justify-content: flex-start;
+    }
+    .ikki{
+        margin-top: 0;
+    }
+    .box, .box.six{
+        min-height: 160vh;
+    }
+    #info{
+        overflow-y: visible;
+    }
+    .info{
+        overflow-y: visible;
+    }
+    .footer_icon{
+        margin-top: 0;
+    }
+    .more{
+        top: 80%;
+    }
+    .footer_logo h3{
+        position: absolute;
+        bottom: 1rem;
+        left: 8rem;
+    }
+    .footer_icon i{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 672px){
+    .slider .mySlides .slide{
+        max-width: 100vw;
+    }
+    .mySlides{
+        left: 0;
+    }
+    .slider .mySlides{
+        min-width: 700vw;
+    }
+    .container .six .img#join_box{
+        height: 150%;
+        margin-top: 0;
+        padding: 3rem 0;
+    }
+    .six.box.sheet{
+        height: 100%;
+    }
+    .slider .mySlides{
+        height: 100%;
+    }
+    #join_box #join_form input{
+        width: 6rem;
+        height: 6rem;
+    }
+    form#form{
+        padding: 6rem 4rem;
+        height: 120%;
+    }
+    /* .box.six{
+        min-height: 170vh;
+    } */
+    .img1 .brands{
+        grid-template: 
+        'one two'
+        'three four'
+        'five six'
+        'seven eight'
+        'nine .';
+        transform: translateY(0);
+    }
+    .brands .brand, .brand .fade, .brand .appear{
+        width: calc(50vw - 5px);
+    }
+    .box>.img1{
+        height: 80vh;
+    }
+    .box.six.about{
+        min-height: 200vh;
+    }
+    .footer_logo img{
+        width: 30rem;
+    }
+    .ikki{
+        flex-direction: column;
+    }
+    .slider0 .slide p{
+        width: 118%;
+        font-size: 3.8rem;
+    }
+    .slider_container .slider0 a{
+        font-size: 2.6rem;
+    }
+    a.next0{
+        right: 0;
+    }
+}
+@media only screen and (max-width: 462px){
+    .img1 .brands{
+        grid-template: 
+        'one'
+        'two'
+        'three'
+        'four'
+        'five'
+        'six'
+        'seven'
+        'eight'
+        'nine';
+        transform: translateY(0);
+    }
+    .brands .brand, .brand .fade, .brand .appear{
+        width: calc(100vw - 10px);
+    }
+    .box>.img1{
+        height: 160vh;
+    }
+    .box.six.about{
+        height: 100%;
+    }
+    .about .img1{
+        height: 100%;
+    }
+    .box.six.about{
+        min-height: 230vh;
+    }
+    .slider_container{
+        height: 750px;
+    }
+}
+@media only screen and (max-width: 660px){
+    .sliderhome{
+        top: 130px;
+        left: 0;
+        padding-left: 0;
+    }
+    .sliderhome div{
+        padding: 0;
+    }
+    .slider-wrapper h2{
+        overflow-y: visible;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 410px){
+    .sliderhome{
+        top: 190px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .logo-box img:last-child{
+        display: block;
+        width: 60px !important;
+    }
+    .logo-box img:first-child{
+        display: none;
+    }
+    .container .four .msg h1,.container .five .msg h1,.container .six .msg h1,
+    .container .seven .msg h1,.container .eight .msg h1,
+    .container .nine .msg h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 390px){
+    .sliderhome{
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 327px){
+    .sliderhome{
+        top: 310px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .welcome_text{
+        max-width: 100vw;
+    }
+    .seven.box.slider{
+        height: 60vh;
+        min-height: 60vh;
+        margin-top: 3rem;
+    }
+    a.next{
+        right: 10px;
+    }
+    #join_box{
+        width: 100vw;
+        height: 70vh;
+        padding-top: 5vh;
+    }
+    #join_box #join_form{
+        padding: 3rem 5rem;
+        justify-content: space-between;
+    }
+    #join_box #form input{
+        width: calc(100% - 1rem);
+    }
+    #form input::placeholder{
+        font-size: 1.6rem;
+    }
+    #join_box form#join_form input{
+        width: 4rem;
+        height: 4rem;
+    }
+    .owner{
+        margin-right: 2rem;
+    }
+    div#join_box{
+        margin-bottom: 2rem;
+    }
+    /* .slider{
+        left: 400px;
+    } */
+}

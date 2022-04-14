@@ -1,0 +1,255 @@
+#info{
+    background-color: #115AA7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5% 0;
+    min-width: calc(50vw - 5px);
+    height: 100vh;
+}
+.counter{
+    font-size: 6.5rem;
+}
+.plus{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.info{
+    width: 30%;
+    margin: 10%;
+}
+.info p{
+    font-size: 2.2rem;
+}
+.four{
+    padding: 0;
+    min-width: 100vw;
+}
+.four .msg h1, .five .msg h1, .six .msg h1{
+    font-size: 2.2rem;
+    padding: 1rem 2rem 1rem 8rem;
+    text-align: left;
+}
+.four .msg h3, .five .msg h3, .six .msg h3{
+    font-size: 4rem;
+    padding: 1rem 8rem 1rem 8rem;
+    font-weight: 400;
+}
+.box .msg{
+    min-width: calc(50vw - 5px);
+}
+.five .msg{
+    padding: 0 5vw;
+}
+.five .msg h3, .six .msg h3{
+    padding: 1rem 0;
+    margin: 0 4rem 0 8rem;
+}
+.six{
+    min-height: 70vh;
+}
+.slider_container{
+    padding: 2rem 8rem;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, .02);
+    overflow-y: visible;
+}
+hr{
+    position: absolute;
+}
+.slider_container h4{
+    color: #115AA7;
+    margin: 8rem 0 -40px;
+    font-size: 2.2rem;
+}
+
+.slider0{
+    display: flex;
+    justify-content: space-between;
+    width: 200vw; /* If you add comments, increase it by 50 */
+    transition: .5s ease;
+    overflow-y: visible;
+}
+.slider_container .slide{
+    padding: 0 8rem 0 0;
+    margin-top: 6rem;
+    margin-right:12rem;
+    position: relative;
+}
+hr{
+    position: absolute;
+    top: -100px;
+    right: -40px;
+    z-index: 199999999999;
+    height: 150%;
+}
+.slide{
+    width: calc(50vw);
+    position: relative;
+    overflow: visible;
+}
+.slide::after, .slide::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #115AA7;
+    top: -147px;
+    left: 0;
+    z-index: 10000000000000000000;
+}
+.slide p{
+    width: 100%;
+    font-size: 2.5rem;
+}
+.slide p:first-child{
+    margin-bottom: 3rem;
+}
+.slide p:last-child{
+    font-size: 2.3rem;
+}
+.slider_container a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    background-color: #115AA7;
+    padding: 1rem 1.4rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+.slider_container a:hover{
+    color: #115AA7;
+    background-color: #fff;
+}
+.prev0{
+    left: 0;
+}
+.next0{
+    right: 10px;
+}
+#one{
+    grid-area: one;
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+}
+#four{
+    grid-area: four;
+}
+#five{
+    grid-area: five;
+}
+#six{
+    grid-area: six;
+}
+#seven{
+    grid-area: seven;
+}
+#eight{
+    grid-area: eight;
+}
+#nine{
+    grid-area: nine;
+}
+.box>.img1{
+    width: 50vw;
+}
+.brands{
+    display: grid;
+    grid-template: 
+        'one two three'
+        'four five six'
+        'seven eight nine';
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, .02);
+    transform: translateY(25%);
+}
+.brand{
+    background-color: #fff;
+    width: calc((50vw - 10px) / 3);
+    height: 150px;
+    cursor: pointer;
+}
+.brand_box{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.brand img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease;
+}
+.fade, .appear{
+    width: calc((50vw - 10px) / 3);
+    height: 150px;
+    background: none;
+}
+.brands .fade{
+    position: relative;
+    z-index: 55;
+    opacity: 0;
+    background-color: #fff;
+}
+.brands .brand .fade{
+    animation: slide 6s ease infinite;
+    /* animation-delay: 4s; */
+}
+/* .brands .brand .appear{
+    animation: slide2 4s ease infinite;
+} */
+@keyframes slide{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/* #two .fade{
+    animation-delay: 24s;
+}
+#three .fade{
+    animation-delay: 16s;
+}
+#four .fade{
+    animation-delay: 32s;
+}
+#five .fade{
+    animation-delay: 4s;
+}
+#six .fade{
+    animation-delay: 28s;
+}
+#seven .fade{
+    animation-delay: 8s;
+}
+#eight .fade{
+    animation-delay: 12s;
+}
+#nine .fade{
+    animation-delay: 20s;
+} */
+.brand img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <link rel="stylesheet" href="/style/apply.css">
+    <title>Apply</title>
+</head>
+<body>
+    <header>
+        <%- include('./partials/header.ejs') %>
+        <div class="cargo" id="image">
+            <div class="apply-img"></div>
+            <h2>join us</h2>
+        </div>
+        <div class="more">
+            <a href="tel: (331) 481 9944">CALL NOW</a>
+            <a href="/apply">APPLY</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="four box">
+            <div class="msg">
+                <h1>Choose UMT Global Logistics for Your Next Career</h1>
+                <h3>We're committed to providing superior earning potential and efficient operations 
+                to our drivers so that they can maximize their income and improve their quality of life.</h3>
+            </div>
+            <div class="img"></div>
+        </div>
+        <div class="five box change">
+            <div class="img">
+                <!-- <img src="./images/Apply-3.jpg" alt=""> -->
+            </div>
+            <div class="msg">
+                <h1>Superior Earning Potential</h1>
+                <h3>Our independent contractors with sleeper trucks earn 
+                $8–13K a week, while our company drivers weekly wages start at $2,200.</h3>
+                <h1>Generous Bonuses</h1>
+                <h3>Enjoy our generous bonuses for joining us, referring us a friend(s), 
+                driving safely, and just being an awesome driver.</h3>
+                <h1>Top of the Line Cargo</h1>
+                <h3>Haul high paying freight from leading brokers and shippers across 48 states of the US.</h3>
+            </div>
+        </div>
+        <div class="six box sheet">
+            <div class="msg">
+                <h1>Central Location</h1>
+                <h3>Half an hour drive from the bustling Chicago, our location is truly 
+                convenient in the national logistics center.</h3>
+                <h1>24/7 Customer Service</h1>
+                <h3>Our outstanding services include round-the-clock dispatching, updating, 
+                safety, maintenance, and many others.</h3>
+                <h1>Are You Ready to Make Your Next Career Move?</h1>
+                <h3>Please fill out the application on this page and our recruiter will contact soon.</h3>
+            </div>
+            <div class="img" id="join_box">
+                <form action="" id="join_form">
+                    <div class="owner">
+                        <label for="radio"><input type="radio" name="radio" checked> APPLY AS AN OWNER-OPERATOR</label>
+                    </div>
+                    <div class="driver">
+                        <label for="radio"><input type="radio" name="radio"> APPLY AS A COMPANY DRIVER</label>
+                    </div>
+                </form>
+                <form action="" method="POST" id="form">
+                    <h3>Fill Out This Form</h3>
+                    <input type="text" placeholder="Name*" required id="name">
+                    <input type="text" placeholder="Phone*" required id="phone">
+                    <input type="text" placeholder="Email*" required id="email">
+                    <input type="text" id="exp" placeholder="How much commercial driving experience do you have?*" required>
+                    <input type="text" id="truck" placeholder="Do you have a sleeper truck? If so, what's the year, make, and model?*">
+                    <input type="text" id="day" placeholder="List 2-3 times and days for an interview*" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="seven box slider">
+            <div class="mySlides">
+                <div class="slide" data-target="0" id="one">
+                    <img src="./images/apply8.png" alt="1">
+                </div>
+                <div class="slide" data-target="1" id="one">
+                    <img src="./images/apply1.png" alt="2">
+                </div>
+                <div class="slide" data-target="2" id="one">
+                    <img src="./images/apply2.png" alt="3">
+                </div>
+                <div class="slide" data-target="3" id="one">
+                    <img src="./images/apply3.png" alt="4">
+                </div>
+                <div class="slide" data-target="4" id="one">
+                    <img src="./images/apply4.png" alt="5">
+                </div>
+                <div class="slide" data-target="5" id="one">
+                    <img src="./images/apply5.png" alt="6">
+                </div>
+                <div class="slide" data-target="6" id="one">
+                    <img src="./images/apply6.png" alt="7">
+                </div>
+            </div>
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+    </div>
+
+    <div class="before"></div>
+
+    <%- include('./partials/footer.ejs') %>
+    <%- include('./partials/script.ejs') %>
+    <script src="/js/carousel.js"></script>
+</body>
+</html>
